@@ -1,7 +1,15 @@
 {
-  "name": "root",
-  "private": true,
-  "devDependencies": {
-    "lerna": "^4.0.0"
-  }
+  "name": "fullstack-nestjs-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend:dev": "pnpm start --filter \"@xiaolongbao/frontend\"",
+    "backend:dev": "pnpm start --filter \"@xiaolongbao/backend\"",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
